@@ -388,4 +388,28 @@ footer{
     .subcsribe{
         overflow: hidden;
     }
+    nav{
+        padding: 5px;
+    }
+    .image-text h1{
+        font-size: 20px;
+    }
+    .icons1{
+        top:68%;
+    }
+    .exam_section{
+        padding: 0px 0;
+    }
+    .btn1{
+        margin-left: -10px;
+    }
+    .clear_div{
+        padding-top: 40px;
+    }
+    .card_first{
+        margin-top: 5%;
+    }
+    .pagination{
+        margin-left: 10%;
+    }
 }
