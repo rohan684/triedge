@@ -427,3 +427,14 @@ footer{
         line-height: 15px;
     }
 }
+@media only screen and (max-width: 600px) {
+    .card_first{
+        margin-top: 14%;
+    }
+    .card{
+        margin-bottom: 45px;
+    }
+    form select{
+        width: 230px;
+    }
+}
