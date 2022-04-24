@@ -195,6 +195,10 @@ nav li{
 .third{
     margin: 0px 5px;
     color: red;
+    transition: 1s;
+}
+.btns2:active{
+    transform: rotate(90deg);
 }
 .btns2{
     background-color: white;
@@ -287,6 +291,13 @@ select:focus{
     overflow: hidden;
     position: relative;
 }
+.image-card img{
+    transition: 2s;
+}
+.image-card img:hover{
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
 .top-right{
     position: absolute;
     top: -3px;
@@ -311,7 +322,7 @@ select:focus{
     background-color: red;
     color:white;
     border: .2px solid white;
-    padding: 2px 19px;
+    padding: 5px 19px;
     margin-top: 5px;
 }
 .for_sm{
@@ -411,5 +422,8 @@ footer{
     }
     .pagination{
         margin-left: 10%;
+    }
+    .brochure{
+        line-height: 15px;
     }
 }
